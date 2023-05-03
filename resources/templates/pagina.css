@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+	border: none;
+	outline: none;
+	color: inherit;
+	list-style: none;
+	font-family: "Poppins";
+}
+
+
+body {
+	min-height: 100vh;
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.6em 1.7em;
+	border-radius: 0.3em;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.09em;
+}
+header {
+	position: sticky;
+	top: 0;
+	background: white;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 1.5em 2em;
+	box-shadow: 0 0 20px 0 black;
+}
+
+nav {
+	display: flex;
+	gap: 1em;
+}
+
+.hero {
+	background: url("https://statics-cuidateplus.marca.com/cms/styles/natural/azblob/2022-11/bano-toallas.jpg.webp?itok=DPn8su8B")
+		no-repeat center/cover;
+	height: 80vh;
+	display: grid;
+	place-content: center;
+}
+
+
+.hero-txt {
+	text-align: center;
+	max-width: 50vw;
+}
+
+.hero-txt h1 > span {
+	margin-top: 0.7em;
+	display: block;
+	font-size: 0.7em;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+
+
+.hero .btn {
+	margin-top: 1.3em;
+	background: white;
+}
+
+.productos {
+	padding: 3em;
+}
+
+.title-c {
+	text-align: center;
+	margin-bottom: 1.5em;
+	text-decoration: underline #db74bb 0.2em;
+	text-underline-offset: 0.3em;
+}
+
+.contenedor {
+	display: grid;
+}
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2em;
+}
+
+.card {
+	display: flex;
+	flex-flow: column;
+	border-radius: 0.3em;
+	overflow: hidden;
+	box-shadow: 0 10px 25px -10px black;
+
+	transition: 300ms ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px -10px black;
+}
+
+.card-img {
+	width: 100%;
+	flex-basis: 200px;
+}
+#tocador {
+  background-image: url("tocador.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+#mano{
+  background-image: url("tocador.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+ }
+
+#ducha {
+  background-image: url("tocador.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+#baño {
+  background-image: url("tocador.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+.card-txt {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1em;
+	padding: 1.5em;
+	text-align: center;
+}
+
+.card-txt .btn {
+	font-size: 0.8em;
+	background: linear-gradient(45deg, #fbfdcb 0%, #de9fb2 47%, #be5ae0 95%);
+}
+
+
+footer {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: baseline;
+	/* ESTILO */
+	padding: 0.5em 2em;
+	background: url("https://images.unsplash.com/photo-1525982479023-9093afb36871?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80")
+		no-repeat bottom/cover;
+}
+
+
+footer .redes {
+	text-align: right;
+}
+
+footer .redes h3 {
+	margin-bottom: 0.7vh;
+}
+
+footer .redes ul {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	gap: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+	footer {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+		footer .redes ul {
+		display: flex;
+		justify-content: center;
+	}
+
+}

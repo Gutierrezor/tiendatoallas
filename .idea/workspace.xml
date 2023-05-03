@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pedidos.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/compras.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/compras.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/compras.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/indice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/pagina.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/pagina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/pedido.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/pedido.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/usuario.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/usuario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/verde.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pedidos.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedidos.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedidos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,7 @@
         <option value="Interface" />
         <option value="module-info" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,14 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Documentos/tiendatollas/tiendatollas&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\tiendatollas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\tiendatollas\resources\templates" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,5 +77,8 @@
       <updated>1681758777771</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
