@@ -1,0 +1,46 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5232284e-97bf-4093-9540-d0d62c1632d3\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/resources/templates/bañoa.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/resources/templates/duchaa.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/compras.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/compras.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/compras.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/compras.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/fondo1.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/fondo1.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/pagina.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/pagina.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/pagina.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/pagina.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/pedido.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/pedido.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/pedido.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/pedido.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/usuario.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/usuario.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/resources/templates/usuario.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/resources/templates/usuario.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pedidos.form\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pedidos.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"module-info\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2OZCa5KT5nMEfHtdoN5zKsiHrKt\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Documentos/tiendatollas&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\julia\\OneDrive\\Documentos\\tiendatollas\\tiendatollas\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\julia\\OneDrive\\Documentos\\tiendatollas\\resources\\templates\" />\r\n      <recent name=\"C:\\Users\\julia\\OneDrive\\Documentos\\tiendatollas\\tiendatollas\\resources\\templates\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5232284e-97bf-4093-9540-d0d62c1632d3\" name=\"Changes\" comment=\"\" />\r\n      <created>1681758777771</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1681758777771</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,22 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/resources/templates/bañoa.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/resources/templates/duchaa.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/compras.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/compras.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/fondo1.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pedido.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pedido.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/usuario.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/usuario.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pedidos.form" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pedidos.java" beforeDir="false" />
+-    </list>
++    <list default="true" id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -36,6 +21,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="interfaz" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="2OZCa5KT5nMEfHtdoN5zKsiHrKt" />
