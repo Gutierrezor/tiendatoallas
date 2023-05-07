@@ -45,9 +45,10 @@ nav {
 
 .hero {
     background: url("https://statics-cuidateplus.marca.com/cms/styles/natural/azblob/2022-11/bano-toallas.jpg.webp?itok=DPn8su8B") no-repeat center/cover;
-    height: 80vh;
+    height: 50vh;
     display: grid;
     place-content: center;
+      background-position: left center;
 }
 
 .hero-txt {
