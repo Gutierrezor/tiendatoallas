@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>pagina</title>
+  <link rel="stylesheet" href="pagina.css">
+  <script src="carrito.js" async></script>
+</head>
+<body>
+<header>
+  <a href="#"> TIENDA DE TOALLAS</a>
+  <nav>
+    <a href="usuario.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Iniciar sesion </a>
+    <a href="usuario.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Mis pedidos </a>
+    <a href="pedido.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Carrito </a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-txt">
+      <h1>
+        <span></span>
+      </h1>
+    </div>
+  </section>
+
+  <section class="productos">
+    <h2 class="title-c">productos</h2>
+
+    <div class="contenedor">
+      <article class="card">
+        <div class="card-img" id="tocador"></div>
+        <img src="tocador.jpg">
+        <div class="card-txt">
+          <h3>TOALLA DE TOCADOR</h3>
+          <p>30×50 cm</p>
+          <p>106.000cop </p>
+          <a href="" class="btn">agregar al carrito</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="mano"></div>
+        <img src="bañoa.jpg">
+        <div class="card-txt">
+          <h3>TOALLA DE MANO</h3>
+          <p>50×100 cm</p>
+          <p>118.000cop </p>
+          <a href="" class="btn">agregar al carrito</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="ducha"></div>
+        <img src="duchaa.jpg">
+        <div class="card-txt">
+          <h3>TOALLA DE DUCHA</h3>
+          <p>70×140 cm</p>
+          <p>217.000cop </p>
+          <a href="" class="btn">agregar al carrito</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img" id="baño"></div>
+        <img src="bañoa.jpg">
+        <div class="card-txt">
+          <h3>TOALLA DE BAÑO</h3>
+          <p>100×150cm</p>
+          <p>143.000cop </p>
+          <a href="" class="btn">agregar al carrito</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<script>
+  // Agregar evento de clic a los botones "agregar al carrito"
+  const btns = document.querySelectorAll(".btn");
+  btns.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      // Código para agregar el producto al carrito
+      console.log("Producto agregado

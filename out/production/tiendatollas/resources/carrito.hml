@@ -1,0 +1,115 @@
+<?php
+session_start();
+
+if(isset($_POST['agregar'])) {
+  $producto = array(
+    'id' => $_POST['id'],
+    'nombre' => $_POST['nombre'],
+    'precio' => $_POST['precio'],
+    'cantidad' => $_POST['cantidad']
+  );
+
+  // Agregar el producto al carrito
+  $_SESSION['carrito'][] = $producto;
+}
+
+if(isset($_POST['actualizar'])) {
+  // Actualizar la cantidad de un producto en el carrito
+  $id = $_POST['id'];
+  $cantidad = $_POST['cantidad'];
+
+  foreach($_SESSION['carrito'] as &$producto) {
+    if($producto['id'] == $id) {
+      $producto['cantidad'] = $cantidad;
+      break;
+    }
+  }
+}
+
+if(isset($_POST['eliminar'])) {
+  // Eliminar un producto del carrito
+  $id = $_POST['id'];
+
+  foreach($_SESSION['carrito'] as $key => $producto) {
+    if($producto['id'] == $id) {
+      unset($_SESSION['carrito'][$key]);
+      break;
+    }
+  }
+}
+
+$total = 0;
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito de compras</title>
+</head>
+<body>
+  <h1>Carrito de compras</h1>
+
+  <?php
+  if(!isset($_SESSION['carrito']) || count($_SESSION['carrito']) == 0) {
+    echo "<p>El carrito está vacío</p>";
+  } else {
+    echo "<table>";
+    echo "<tr><th>Producto</th><th>Cantidad</th><th>Precio unitario</th><th>Precio total</th><th>Acciones</th></tr>";
+
+    foreach($_SESSION['carrito'] as $producto) {
+      echo "<form method='post'>";
+      echo "<tr>";
+      echo "<td>" . $producto['nombre'] . "</td>";
+      echo "<td><input type='number' name='cantidad' value='" . $producto['cantidad'] . "'></td>";
+      echo "<td>" . $producto['precio'] . "</td>";
+      echo "<td>" . ($producto['cantidad'] * $producto['precio']) . "</td>";
+      echo "<td>";
+      echo "<input type='hidden' name='id' value='" . $producto['id'] . "'>";
+      echo "<input type='submit' name='actualizar' value='Actualizar'>";
+      echo "<input type='submit' name='eliminar' value='Eliminar'>";
+      echo "</td>";
+      echo "</tr>";
+      echo "</form>";
+
+      $total += ($producto['cantidad'] * $producto['precio']);
+    }
+
+    echo "<tr><td colspan='3'>Total:</td><td>" . $total . "</td><td></td></tr>";
+    echo "</table>";
+  }
+  ?>
+
+  <hr>
+
+  <h2>Lista de productos</h2>
+
+  <table>
+    <tr><th>Producto</th><th>Precio</th><th>Acciones</th></tr>
+
+    <?php
+    // Conectarse a la base de datos y obtener los productos
+    $conn = mysqli_connect('localhost', 'usuario', 'contraseña', 'basededatos');
+    $productos = mysqli_query($conn, "SELECT * FROM productos");
+    while($producto = mysqli_fetch_assoc($productos)) {
+        echo "<form method='post'>";
+        echo "<tr>";
+        echo "<td>" . $producto['nombre'] . "</td>";
+        echo "<td>" . $producto['precio'] . "</td>";
+        echo "<td>";
+        echo "<input type='hidden' name='id' value='" . $producto['id'] . "'>";
+        echo "<input type='hidden' name='nombre' value='" . $producto['nombre'] . "'>";
+        echo "<input type='hidden' name='precio' value='" . $producto['precio'] . "'>";
+        echo "<input type='number' name='cantidad' value='1'>";
+        echo "<input type='submit' name='agregar' value='Agregar'>";
+        echo "</td>";
+        echo "</tr>";
+        echo "</form>";
+      }
+
+      // Cerrar la conexión a la base de datos
+      mysqli_close($conn);
+      ?>
+    </table>
+  </body>
+  </html>

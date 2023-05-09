@@ -4,81 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/templates/bañoa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/templates/duchaa.jpg" afterDir="false" />
+    <list default="true" id="5aa4dcac-242b-4449-9759-e460207f13e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mian/CrudSpringBoot/CrudSpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mian/CrudSpringBoot/controler/Controler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mian/CrudSpringBoot/interfaceService/IPersonaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mian/CrudSpringBoot/interfaces/IPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mian/CrudSpringBoot/modelo/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mian/CrudSpringBoot/service/PersonaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mian/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/carrito.hml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/templates/ihut.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/compras.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/compras.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/fondo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pedido.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pedido.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/usuario.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/usuario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pedidos.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pedidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/bañoa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/bañoa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/compras.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/compras.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/compras.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/duchaa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/duchaa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/fondo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/fondo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/fondo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/indice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/indice.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/pagina.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/pagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/pedido.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/pedido.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/tocador.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/tocador.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/usuario.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/usuario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/verde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/verde.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="module-info" />
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="2OZCa5KT5nMEfHtdoN5zKsiHrKt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Documentos/tiendatollas&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "database",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\tiendatollas" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\resources\templates" />
-      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\tiendatollas\resources\templates" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="" />
-      <created>1681758777771</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1681758777771</updated>
-    </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
