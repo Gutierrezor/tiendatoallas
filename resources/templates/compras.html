@@ -1,39 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>compras</title>
     <link rel="stylesheet" href="compras.css">
 </head>
 <body>
-<table class="rwd-table">
-    <tr>
+<table>
+   <thead>
         <th>iD</th>
-        <th>pedidos</th>
+        <th>Pedidos</th>
         <th>fecha de fabricacion</th>
-        <th>fabricacion</th>
-        <th>envio</th>
-        <th>Valor total</th>
+        <th>Fabricacion</th>
+        <th>Envio</th>
+        <th>Editar</th>
 
     </tr>
-    <tr>
-        <td data-th="id">100038305</td>
-        <td data-th="pedido">toalla de mano (1)</td>
-        <td data-th="fecha de fabricacion">12/03/2023</td>
-        <td data-th="fabricacion">finalizado</td>
-        <td data-th="envio">entregado</td>
-        <td data-th="valor total">140.000</td>
+   </thead>
+    <tbody>
+    <tr th:each="registro : ${registros}">
+        <td th:text="${registro.getId()}"></td>
+        <td th:text="${registro.getPedido()}"></td>
+        <td th:text="${registro.getFechaHfabricacion()}"></td>
+        <td th:text="${registro.getTEnvio()}"></td>
+        <td th:text="${registro.getEditar()}"></td>
+        <td>
+        <button onclick="location.href='';" class="custom-btn btn-1">Confirmar</button>
+        <button onclick="location.href='';" class="custom-btn btn-1">Eliminar</button>
+        </td>
     </tr>
-    <tr>
-        <td data-th="id">1821186450</td>
-        <td data-th="pedido">toalla de tocador (1)</td>
-        <td data-th="fecha de fabricacion">15/03/2023</td>
-        <td data-th="fabricacion">proceso</td>
-        <td data-th="envio">en espera</td>
-        <td data-th="valor total">500.000</td>
-    </tr>
+    </tbody>
+    <button onclick="location.href='pagina.html';" class="custom-btn btn-1">Inicio</button>
 </table>
-<button onclick="location.href='pagina.html';" class="custom-btn btn-1">Inicio</button>
-<button onclick="location.href='';" class="custom-btn btn-1">editar</button>
 </body>
 </html>
