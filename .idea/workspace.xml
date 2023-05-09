@@ -4,86 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="">
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/resources/templates/bañoa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/templates/duchaa.jpg" afterDir="false" />
+    <list default="true" id="34fa405c-9ce1-4f6a-a2c1-c74592103a04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendatoalla/TiendatoallaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tiendatoalla/TiendatoallaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/compras.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/compras.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/fondo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pedido.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pedido.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/usuario.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/usuario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pedidos.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pedidos.java" beforeDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_05_2023_10_39_a__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_05_2023_10_39_a__m___Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/pagina.html" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/bañoa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bañoa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/duchaa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/duchaa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fondo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fondo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fondo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/indice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indice.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/mano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mano.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pagina.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pedido.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pedido.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/tocador.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tocador.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuario.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/verde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verde.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="module-info" />
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="2OZCa5KT5nMEfHtdoN5zKsiHrKt" />
+  <component name="ProjectId" id="2PRl0ZQySdqpShdeuN8yb4dyIfR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Documentos/tiendatollas&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "background"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\tiendatollas" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\resources\templates" />
-      <recent name="C:\Users\julia\OneDrive\Documentos\tiendatollas\tiendatollas\resources\templates" />
+      <recent name="C:\Users\julia\OneDrive\Documentos\GitHub\tiendatoallas\src\main\resources" />
+      <recent name="C:\Users\julia\OneDrive\Documentos\GitHub\tiendatoallas" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5232284e-97bf-4093-9540-d0d62c1632d3" name="Changes" comment="" />
-      <created>1681758777771</created>
+      <changelist id="34fa405c-9ce1-4f6a-a2c1-c74592103a04" name="Changes" comment="" />
+      <created>1683427559736</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681758777771</updated>
+      <updated>1683427559736</updated>
     </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
