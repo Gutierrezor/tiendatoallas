@@ -5,42 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34fa405c-9ce1-4f6a-a2c1-c74592103a04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendatoalla/TiendatoallaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tiendatoalla/TiendatoallaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendatoalla/modelo/carrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendatoalla/modelo/cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tiendatoalla/modelo/modelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/bañoa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bañoa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/compras.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/duchaa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/duchaa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fondo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/fondo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fondo2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/fondo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fondo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/indice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indice.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/mano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pagina.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pedido.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pedido.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/tocador.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tocador.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuario.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/verde.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verde.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,13 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "background"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;background&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julia\OneDrive\Documentos\GitHub\tiendatoallas\src\main\resources" />
