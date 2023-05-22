@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>compras</title>
+    <link rel="stylesheet" href="../static/compras.css">
+</head>
+<body>
+<table>
+   <thead>
+        <th>iD</th>
+        <th>Pedidos</th>
+        <th>fecha de fabricacion</th>
+        <th>Fabricacion</th>
+        <th>Envio</th>
+        <th>valor</th>
+        <th>Editar</th>
+
+    </tr>
+   </thead>
+    <tbody>
+    <tr th:each="registro : ${registros}">
+        <td th:text="${registro.getId()}"></td>
+        <td th:text="${registro.getPedido()}"></td>
+        <td th:text="${registro.getFechaHfabricacion()}"></td>
+        <td th:text="${registro.getTEnvio()}"></td>
+        <td th:text="${registro.getValor()}"></td>
+        <td th:text="${registro.getEditar()}"></td>
+        <td>
+        <button onclick="location.href='';" class="custom-btn btn-1">Confirmar</button>
+        <button onclick="location.href='';" class="custom-btn btn-1">Eliminar</button>
+        </td>
+    </tr>
+    </tbody>
+    <button onclick="location.href='pagina.html';" class="custom-btn btn-1">Inicio</button>
+    <button onclick="location.href='';" class="custom-btn btn-1">editar</button>
+</table>
+</body>
+</html>
