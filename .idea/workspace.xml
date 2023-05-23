@@ -5,19 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ea1855-895c-448e-baa9-7e0e5c9c5fe5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/carrito.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/bañoa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/compras.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/duchaa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/fondo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/indice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pagina.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/pedido.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/tocador.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/usuario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/verde.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CrudSpringBoot/controler/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CrudSpringBoot/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CrudSpringBoot/service/interfaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CrudSpringBoot/services/interfaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/compras.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/compras.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pedido.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,13 +83,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/julia/OneDrive/Documentos/programacion/tiendatoallas",
+    "last_opened_file_path": "C:/Users/julia/OneDrive/Documentos/GitHub/tiendatoallas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "c79a54adde12c7c2c1e523ed08200507"
   }
 }]]></component>

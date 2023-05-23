@@ -8,10 +8,10 @@
 </head>
 <body>
 <header>
-  <a href="#"> TIENDA DE TOALLAS</a>
+  <a href="#">TIENDA DE TOALLAS</a>
   <nav>
-    <a href="usuario.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Mis pedidos </a>
-    <a href="pedido.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Carrito </a>
+    <a href="usuario.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Mis pedidos</a>
+    <a href="pedido.html" class="navbar-brand pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Carrito</a>
   </nav>
 </header>
 <main>
@@ -33,8 +33,8 @@
         <div class="card-txt">
           <h3>TOALLA DE TOCADOR</h3>
           <p>30×50 cm</p>
-          <p>106.000cop </p>
-          <a href="" class="btn">agregar al carrito</a>
+          <p>106.000cop</p>
+          <a href="#" class="btn" onclick="agregarAlCarrito('TOALLA DE TOCADOR', '30×50 cm', '106.000cop')">agregar al carrito</a>
         </div>
       </article>
       <article class="card">
@@ -43,8 +43,8 @@
         <div class="card-txt">
           <h3>TOALLA DE MANO</h3>
           <p>50×100 cm</p>
-          <p>118.000cop </p>
-          <a href="" class="btn">agregar al carrito</a>
+          <p>118.000cop</p>
+          <a href="#" class="btn" onclick="agregarAlCarrito('TOALLA DE MANO', '50×100 cm', '118.000cop')">agregar al carrito</a>
         </div>
       </article>
       <article class="card">
@@ -53,8 +53,8 @@
         <div class="card-txt">
           <h3>TOALLA DE DUCHA</h3>
           <p>70×140 cm</p>
-          <p>217.000cop </p>
-          <a href="" class="btn">agregar al carrito</a>
+          <p>217.000cop</p>
+          <a href="#" class="btn" onclick="agregarAlCarrito('TOALLA DE DUCHA', '70×140 cm', '217.000cop')">agregar al carrito</a>
         </div>
       </article>
       <article class="card">
@@ -63,12 +63,35 @@
         <div class="card-txt">
           <h3>TOALLA DE BAÑO</h3>
           <p>100×150cm</p>
-          <p>143.000cop </p>
-          <a href="" class="btn">agregar al carrito</a>
+          <p>143.000cop</p>
+          <a href="#" class="btn" onclick="agregarAlCarrito('TOALLA DE BAÑO', '100×150cm', '143.000cop')">agregar al carrito</a>
         </div>
       </article>
     </div>
   </section>
 </main>
+
+<script>
+  function agregarAlCarrito(nombre, tamaño, precio) {
+    // Crear un objeto con los datos del producto
+    var producto = {
+      nombre: nombre,
+      tamaño: tamaño,
+      precio: precio
+    };
+
+    // Obtener los datos del carrito de la sesión o inicializar un nuevo carrito si no existe
+    var carrito = JSON.parse(sessionStorage.getItem('carrito')) || [];
+
+    // Agregar el producto al carrito
+    carrito.push(producto);
+
+    // Guardar el carrito en la sesión
+    sessionStorage.setItem('carrito', JSON.stringify(carrito));
+
+    // Redirigir al usuario a la página del carrito
+    window.location.href = 'pedido.html';
+  }
+</script>
 </body>
 </html>

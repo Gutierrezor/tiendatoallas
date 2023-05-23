@@ -1,80 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>pedidos</title>
+  <meta charset="UTF-8">
+  <title>pedidos</title>
   <link rel="stylesheet" href="../static/pedido.css">
 </head>
 <body>
 <div class="container">
-  <form id="nombre-form">
+  <form id="pedido-form">
     <div class="form-group">
-      <label id="nombre-label" for="nombre">nombre</label>
+      <label id="nombre-label" for="nombre">Nombre</label>
       <input
               type="text"
               name="nombre"
               id="nombre"
               class="form-control"
-              placeholder="Ingresá tu nombre"
+              placeholder="Ingresa tu nombre"
               required
       />
     </div>
     <div class="form-group">
-      <label id="cedula de ciudadania" for="cedula de ciudadania"> Cedula</label>
+      <label id="cedula-label" for="cedula">Cédula</label>
       <input
-              type="cedula"
+              type="text"
               name="cedula"
               id="cedula"
               class="form-control"
-              placeholder="Ingresá se cedula"
+              placeholder="Ingresa tu cédula"
               required
       />
     </div>
     <div class="form-group">
-      <label id="numero-label" for="numero"> Número de Celular </label>
+      <label id="numero-label" for="numero">Número de Celular</label>
       <input
-              type="numero"
+              type="text"
               name="numero"
               id="numero"
               class="form-control"
-              placeholder="Ingresá su numero telefonico"
+              placeholder="Ingresa tu número telefónico"
               required
       />
     </div>
     <div class="form-group">
-      <label id="direcion-label" for="direcion">direcion</label>
+      <label id="fabricacion-label" for="fabricacion">Dirección</label>
       <input
-              type="direcion"
-              name="direcion"
-              id="direcion"
+              type="text"
+              name="fabricacion"
+              id="fabricacion"
               class="form-control"
-              placeholder="ingresa la direcion"
+              placeholder="Ingresa la dirección"
               required
       />
     </div>
-    <div class="form-grup">
-      <label id="pedido-label" for="pedido">pedido</label>
+    <div class="form-group">
+      <label id="pedido-label" for="pedido">Pedido</label>
       <input
-              type="pedido"
+              type="text"
               name="pedido"
               id="pedido"
               class="form-control"
-
               required
       >
     </div>
-<div class="form-grup">
-  <label id="color-label" for="color">color</label>
-  <input
-          type="color"
-          name="color"
-          id="color"
-          class="form-control"
-          required
-  >
-</div>
-    <button onclick="location.href='https://wa.me/3118523180?text=';" class="custom-btn btn-1">Confirmar</button>
+    <div class="form-group">
+      <label id="color-label" for="color">Color</label>
+      <input
+              type="colores"
+              name="color"
+              id="color"
+              class="form-control"
+              placeholder="Ingresa el color"
+              required
+      >
+    </div>
+    <button onclick="guardarDatosYEnviarWhatsApp();" class="custom-btn btn-1">Confirmar</button>
     <button onclick="location.href='pagina.html';" class="custom-btn btn-1">Cancelar</button>
+  </form>
 </div>
+
+<script>
+  function guardarDatosYEnviarWhatsApp() {
+    var nombre = document.getElementById("nombre").value;
+    var cedula = document.getElementById("cedula").value;
+    var numero = document.getElementById("numero").value;
+    var fabricacion = document.getElementById("fabricacion").value;
+    var pedido = document.getElementById("pedido").value;
+    var color = document.getElementById("color").value;
+
+    var carrito = {
+      nombre: nombre,
+      cedula: cedula,
+      fecha: numero,
+      fabricacion: fabricacion,
+      pedido: pedido,
+      color: color
+    };
+
+    fetch('/guardar-datos', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(carrito)
+    })
+    .then(response => {
+      console.log('Datos guardados correctamente');
+      enviarWhatsApp(numero, cedula, nombre, fabricacion, pedido, color);
+    });
+  }
+
+  function enviarWhatsApp(numero, cedula, nombre, fabricacion, pedido, color) {
+    var mensaje = "¡Hola! Quiero realizar un pedido.\n\n" +
+                  "Nombre: " + nombre + "\n" +
+                  "Cédula: " + cedula + "\n" +
+                  "Teléfono: " + numero + "\n" +
+                  "Dirección: " + fabricacion + "\n" +
+                  "Pedido: " + pedido + "\n" +
+                  "Color: " + color;
+
+    var encodedMensaje = encodeURIComponent(mensaje);
+    var whatsappURL = "https://api.whatsapp.com/send?phone=3118523180&text=" + encodedMensaje;
+    window.location.href = whatsappURL;
+  }
+</script>
 </body>
 </html>

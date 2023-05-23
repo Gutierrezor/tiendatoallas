@@ -1,4 +1,4 @@
-package com.example.CrudSpringBoot.service;
+package com.example.CrudSpringBoot.services;
 import com.example.CrudSpringBoot.modelo.cliente;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

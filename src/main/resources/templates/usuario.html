@@ -6,15 +6,10 @@
     <link rel="stylesheet" href="../static/usuario.css">
 </head>
 <body>
-<head>
-
-</head>
-
-<body>
 
 <div class='container'>
     <div class='card'>
-        <h1> Registro </h1>
+        <h1>Registro</h1>
 
         <div id='msgError'></div>
         <div id='msgSuccess'></div>
@@ -24,15 +19,29 @@
             <label id="labelnombre" for="nombre">Nombre</label>
         </div>
         <div class="label-float">
-            <input type="cedula" id="cedula" placeholder=" " required>
-            <label id="labelcedula" for="cedula">cedula</label>
+            <input type="text" id="cedula" placeholder=" " required>
+            <label id="labelcedula" for="cedula">Cédula</label>
             <i id="vercedula" class="fa fa-eye" aria-hidden="false"></i>
         </div>
         <div class='justify-center'>
-            <button onclick="location.href='compras.html';" class="custom-btn btn">Iniciar sesión</button>
+            <button onclick="iniciarSesion()" class="custom-btn btn">Iniciar sesión</button>
         </div>
     </div>
 </div>
-</body>
+
+<script>
+    function iniciarSesion() {
+        var nombre = document.getElementById("nombre").value;
+        var cedula = document.getElementById("cedula").value;
+
+        // Validar los campos
+        if (nombre.trim() === "" || cedula.trim() === "") {
+            document.getElementById("msgError").innerText = "Por favor, completa todos los campos.";
+            document.getElementById("msgSuccess").innerText = "";
+        } else {
+            location.href = "compras.html";
+        }
+    }
+</script>
 </body>
 </html>

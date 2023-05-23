@@ -7,33 +7,33 @@
 </head>
 <body>
 <table>
-   <thead>
-        <th>iD</th>
+    <thead>
+    <tr>
+        <th>ID</th>
         <th>Pedidos</th>
-        <th>fecha de fabricacion</th>
-        <th>Fabricacion</th>
-        <th>Envio</th>
-        <th>valor</th>
+        <th>Fecha de fabricación</th>
+        <th>Fabricación</th>
+        <th>Envío</th>
+        <th>Valor</th>
         <th>Editar</th>
-
     </tr>
-   </thead>
+    </thead>
     <tbody>
     <tr th:each="registro : ${registros}">
-        <td th:text="${registro.getId()}"></td>
-        <td th:text="${registro.getPedido()}"></td>
-        <td th:text="${registro.getFechaHfabricacion()}"></td>
-        <td th:text="${registro.getTEnvio()}"></td>
-        <td th:text="${registro.getValor()}"></td>
-        <td th:text="${registro.getEditar()}"></td>
+        <td th:text="${registro.id}"></td>
+        <td th:text="${registro.pedido}"></td>
+        <td th:text="${registro.fechaFabricacion}"></td>
+        <td th:text="${registro.fabricacion}"></td>
+        <td th:text="${registro.envio}"></td>
+        <td th:text="${registro.valor}"></td>
         <td>
-        <button onclick="location.href='';" class="custom-btn btn-1">Confirmar</button>
-        <button onclick="location.href='';" class="custom-btn btn-1">Eliminar</button>
+            <button onclick="location.href='';" class="custom-btn btn-1">Confirmar</button>
+            <button onclick="location.href='';" class="custom-btn btn-1">Eliminar</button>
         </td>
     </tr>
     </tbody>
-    <button onclick="location.href='pagina.html';" class="custom-btn btn-1">Inicio</button>
-    <button onclick="location.href='';" class="custom-btn btn-1">editar</button>
 </table>
+<button onclick="location.href='pagina.html';" class="custom-btn btn-1">Inicio</button>
+<button onclick="location.href='';" class="custom-btn btn-1">Editar</button>
 </body>
 </html>
