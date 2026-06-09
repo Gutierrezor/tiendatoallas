@@ -1,3 +1,18 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Java / Maven
+target/
+*.class
+
+# Logs
+*.log
+
+# Environment
+.env
+application-local.properties
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar

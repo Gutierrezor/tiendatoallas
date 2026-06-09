@@ -5,16 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.5</version>
+		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>ProyecTienda</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>CrudSpringBoot</name>
-	<description>Demo project for Spring Boot</description>
+	<groupId>com.gutierrezor</groupId>
+	<artifactId>tienda-toallas</artifactId>
+	<version>0.1.0</version>
+	<name>Tienda Toallas</name>
+	<description>Sistema web para la gestión y venta de toallas</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -40,16 +40,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.6.15.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>jakarta.persistence</groupId>
-			<artifactId>jakarta.persistence-api</artifactId>
-			<version>2.2.3</version>
-		</dependency>
+		<!-- Hibernate and Jakarta Persistence are managed by Spring Boot starter versions -->
 	</dependencies>
 
 	<build>
